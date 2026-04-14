@@ -1,0 +1,24 @@
+# Teacher Enthusiasm Detector — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.7.0
+mediapipe>=0.10.0
+
+# Facial Emotion
+deepface>=0.0.79
+tf-keras>=2.15.0         # DeepFace backend
+
+# Feature Engineering & ML Utils
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+joblib>=1.3.0
+
+# Visualisation (optional but useful for debugging)
+matplotlib>=3.7.0
+seaborn>=0.12.0
